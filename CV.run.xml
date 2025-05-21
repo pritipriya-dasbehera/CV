@@ -80,8 +80,5 @@
     <requires type="dynamic">
       <file>CV.bcf</file>
     </requires>
-    <requires type="editable">
-      <file>cv/references.bib</file>
-    </requires>
   </external>
 </requests>

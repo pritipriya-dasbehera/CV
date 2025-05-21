@@ -4,6 +4,7 @@
 % A4 paper size by default, use 'letterpaper' for US letter
 \documentclass[11pt, a4paper]{russell}
 \usepackage{graphicx}
+%\usepackage{enumitem}
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 
@@ -46,7 +47,7 @@
 %\dateofbirth{January 1st, 1970}
 %\homepage{www.posquit0.com} 
 \github{github.com/pritipriya-dasbehera}
-\linkedin{linkedin.com/in/pritipriya-dasbehera-470212229}
+%\linkedin{linkedin.com/in/pritipriya-dasbehera-470212229}
 % \gitlab{gitlab-id}
 % \stackoverflow{SO-id}{SO-name}
 % \twitter{@twit}
@@ -65,7 +66,7 @@
 %-------------------------------------------------------------------------------
  %	BIBLIOGRAPHY
  %-------------------------------------------------------------------------------
-\addbibresource{cv/references.bib}
+%\addbibresource{cv/references.bib}
 
 %-------------------------------------------------------------------------------
 \begin{document}
@@ -77,7 +78,7 @@
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 \makecvfooter
-  {\today}
+  {} %  {\today}
   {}
   {\thepage}
 
@@ -90,7 +91,7 @@
 \input{cv/experience.tex}
 \input{cv/projects.tex}
 \input{cv/skills.tex}
-\newpage
+%\newpage
 \input{cv/achievements.tex}
 %\input{cv/publications.tex}
 \input{cv/interests.tex}
@@ -98,6 +99,7 @@
 
 \vspace*{\fill}
 
-%\centering{\textbf{References available upon request.}}
+\centering{\text{Transcript, Certificates available }
+	\href{https://drive.google.com/drive/folders/1jhlRAs_5fv7khFHxLVhfSZNysKI6q_8l?usp=drive_link}{here} \verb*|https://drive.google.com/drive/folders/1jhlRAs_5fv7khFHxLVhfSZNysKI6q_8l|}
 %-------------------------------------------------------------------------------
 \end{document}
